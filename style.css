@@ -1,0 +1,55 @@
+        
+        body {
+            background-color: rgb(182, 123, 45);
+        }
+        
+        header {
+            flex-direction: row;
+            display: flex;
+            background-color: rgb(238, 238, 238);
+            gap: 1em;
+            justify-content: space-between;
+            align-items: flex-end;
+        }
+        
+        header h1 {
+            margin-top: 1fr;
+            background-color: yellow;
+            font-size: 28px;
+            align-self: flex-start;
+        }
+        
+        header h2 {
+            background-color: greenyellow;
+        }
+        
+        header #code {
+            margin-bottom: 0;
+            color: red;
+            font-size: 20px;
+        }
+
+        nav {
+            background-color: grey;
+        }
+        
+        .navbar__menu {
+            display: flex;
+            justify-content: space-around;
+            background-color: greenyellow;
+            padding: 1rh;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            margin-left: 200px;
+        }
+        
+        .navbar__menu li:hover {
+            background-color: aqua;
+            border-radius: 15px;
+            
+        }
+
+        .pf_1 {
+            width: 200px;
+        }
