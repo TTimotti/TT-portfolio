@@ -1,202 +1,55 @@
         
         body {
-            background-color: rgb(255, 255, 200);
-            margin: 5% 10% 1% 10%;
+            background-color: rgb(182, 123, 45);
         }
         
         header {
             flex-direction: row;
             display: flex;
-            background-color: rgb(255, 255, 231);
+            background-color: rgb(238, 238, 238);
             gap: 1em;
             justify-content: space-between;
             align-items: flex-end;
-            font-family: 'Courier New', Courier, monospace;
         }
         
         header h1 {
             margin-top: 1fr;
+            background-color: yellow;
             font-size: 28px;
             align-self: flex-start;
         }
         
+        header h2 {
+            background-color: greenyellow;
+        }
         
         header #code {
             margin-bottom: 0;
             color: red;
             font-size: 20px;
-            font-family: 'Black Han Sans', sans-serif;
         }
 
         nav {
-            background-color: white;
-            font-family: 'Kdam Thmor Pro', sans-serif;
-            text-decoration: none;
-
+            background-color: grey;
         }
         
         .navbar__menu {
             display: flex;
             justify-content: space-around;
-            background-color: rgb(189, 199, 174);
+            background-color: greenyellow;
             padding: 1rh;
             list-style: none;
             padding: 0;
             margin: 0;
-
+            margin-left: 200px;
         }
         
-        .navbar__menu li {
-            background-color: rgb(189, 199, 174);
-            border-radius: 5px;
-            padding: 2px 10px 2px 10px ;
-        }
-
-        .navbar__menu li a:link {
-            color: black;
-            text-decoration: none;
-        }
-
         .navbar__menu li:hover {
-            background-color: rgb(255, 255, 255);
-            border-radius: 5px;
-            text-decoration: none;
+            background-color: aqua;
+            border-radius: 15px;
             
-        }
-
-        #profile {
-            background-color: rgb(255, 255, 231);
-            display: flex;
-            font-family: 'Noto Sans KR', sans-serif;
-        }
-
-        aside {
-            display: flex;
-            flex-direction: column;
-            background-color: rgb(255, 255, 231);
-            justify-content: flex-start;
-            width: 200px;
-            height: 420px;
-            margin-right: 3%;
         }
 
         .pf_1 {
             width: 200px;
-            margin-top: 50px;
-            margin-bottom: 50px;
         }
-
-        .aboutMe {
-            text-align: right;
-            width: 200px;
-            font-family: 'Black Han Sans', sans-serif;
-            
-        }
-
-        .aboutMe [class] {
-            text-align: center;
-            width: ;
-            font-family: 'Courier New', Courier, monospace;
-        }
-
-        main {
-            display: flex;
-            flex-direction: column;
-            gap: 15vh;
-            width: 100%;
-        }
-
-        main ul strong,b {
-            font-size: 2vh;
-        }
-
-        main p {
-            border-top: 1px grey solid;
-            border-top-right-radius: 10px;
-        }
-
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        @media screen and (max-width: 822px) {
-            
-            body {
-                margin: 0%;
-            }
-            
-            header {
-                width: 100% ;
-                
-            }
-
-            .navbar__menu {
-                display: flex;
-                width: 100% ;
-            }
-
-
-            #profile {
-                display: flex;
-                flex-direction: column;
-                width: 100% ;
-            }
-
-            aside {
-                display: flex;
-                width: 100% ;
-                justify-content: center;
-                align-items: center;
-            }
-
-            header {
-                flex-direction: column;
-            }
-            
-            header h1 {
-                margin-top: 1fr;
-                background-color: beige;
-                font-size: 22px;
-                align-self: flex-start;
-            }
-            
-            header h2 {
-                align-self: center;
-            }
-            
-            header #code {
-                align-self: flex-end;
-                display: none;
-            }
-
-            main {
-                display: flex;
-                flex-direction: column;
-                gap: 5vh;
-                width: 100%;
-            }
-            
-            main ul {
-                border-top: 1px rgb(255, 91, 91) solid;
-                list-style:none;
-                
-            }
-
-            main li {
-                text-align: center;
-                font-size: 1fr;
-                
-            }
-
-            main ul b, strong {
-                font-size: 22px;
-                
-                
-            }
-        }
-
